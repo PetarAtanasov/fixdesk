@@ -4,7 +4,7 @@ export default function Navbar({ lang, setLang }) {
   return (
     <nav className="nav">
       
-      <div className="logo">⚡ FixDesk JAJA</div>
+      <div className="logo">⚡ FixDesk</div>
 
       <div className="links">
         <a>{lang === "EN" ? "About" : "Über uns"}</a>
